@@ -29,3 +29,13 @@ The app uses a SQLite database file called test.db. It will be created automatic
 | PUT    | `/users/{id}`    | Update user by ID    |
 | DELETE | `/users/{id}`    | Delete user by ID    |
 
+## Running the App
+
+Start the server using Uvicorn:
+
+```bash
+uvicorn main:app --reload
+```
+
+then open your browser to: http://127.0.0.1:8000/docs
+
